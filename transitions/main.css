@@ -1,10 +1,11 @@
-a {
-  color: #e84610;
-  font-size: 16px;
-  text-decoration: none;
-  transition: color 1s ease-in-out;
+.box {
+    background-color: #79797f;
+    width: 150px;
+    height: 150px;
+    transition: background-color 1s ease-in-out 1s;
 }
 
-a:hover {
-    color: #000;
+.box:hover {
+
+    background-color: #e84610;
 }
